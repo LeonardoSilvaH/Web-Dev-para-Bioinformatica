@@ -13,11 +13,16 @@ header{
 }
 
 main{
-    color: #B0B0B0
+    color:#B0B0B0;
+    text-wrap:wrap;
+    display:inline;
+    margin:1em;        
 }
 
 .main-header{
     color: black;
+    display:inline;
+    text-align:start;
 }
 
 footer{
