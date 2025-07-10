@@ -1,0 +1,49 @@
+O que é Java Script?
+    Linguagen de programação Client-side
+    Tipagem dinâmica e fraca
+    Principais tecnologias da internet
+        HTML
+        CSS
+        JavaScript
+    JavaScript != Java
+        Linguagem de scripts (não-compiladas)
+
+    Exemplo   
+        document.body.style.backgroundColor = 'lightblue';
+        tag<body>
+            style -> alterar o estilo
+                backgroundColor -> alterar a cor de fundo
+    
+    Js <- HTML -> CSS 
+        Arquivos separados de JS e CSS
+
+    let, const, var
+        Há 03 formas de declaração no JavaScript: Var, let e Const
+            var: Declara uma variável global.
+                var x = 10  
+            let: Declara uma variável de escopo.
+                let x = 10
+            const: Declara uma constante.
+                const x = 10
+    loop
+        while
+        for
+            for{}
+    Objetos em JavaScript
+        Tudo que é declarado em JS pode ser considerado um objeto 
+            Pode ser aplicado propriedades e metodos
+                objeto.propriedades
+                objeto.metodos()
+
+    Funções
+        EM JS funções são simplificadas ao maximo
+        x = 
+    
+    Eventos
+        Manipulando o DOM 
+            DOM = Document Object Model
+        let selecionado = document.querySelector([Selector])
+        Altere o estilo com style.[propriedade]
+         
+
+    
