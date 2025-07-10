@@ -1,0 +1,25 @@
+Linguagem server-side
+Extensão: ".php"
+Sintaxe simples: <?php ... ?> para delimitar códigos PHP dentro de arquivos HTML
+variáveis: iniciam com $
+Arrays: <?php $produtos  = ["pão", "leite"] >
+Funções: 
+<?php function ola(){ 
+    echo "ola"
+}
+ola()
+
+Controle de fluxo: if, else, switch, while, for, etc.
+
+Formulários: PHP lida com dados enviados por GET ou POST
+
+PHP - outras caracteristicas
+
+Integração com banco de dados: Comum usar MySQL via mysql ou PDO
+Programação orientada a objetos (POO): suporte a classes, objetos, herança e encapsulamento
+
+Superglobaisvariáveis especiais como $_POST $_GET $_SESSION $_FILES
+
+Session e cookies: usados para armazenar dados entres requisições
+
+Exemplos PHP 
