@@ -23,3 +23,20 @@ Superglobaisvariáveis especiais como $_POST $_GET $_SESSION $_FILES
 Session e cookies: usados para armazenar dados entres requisições
 
 Exemplos PHP 
+
+CodeIgniter
+    Framework PHP siples e leve
+    Do planejamento a produção do MvP em menos de 24h
+    Arquitetura MVC
+        Controller - Recebe requisição do usuário
+            View
+                Regula Interface
+            Model
+                Regula dados
+
+
+Criando um projeto com CodeIgniter no terminal
+    composer create-project codeigniter4/appstarter meu-outro-site
+Iniciando um servidor local na porta 8080
+    php spark serve
+        
