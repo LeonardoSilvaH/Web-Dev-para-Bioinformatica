@@ -1,29 +1,38 @@
 <!DOCTYPE html>
 <html>
-    <Head>
+    <head>
         <meta charset="UTF-8">
         <title>Receitas de bolo</title>
 
         <link href="style.css" rel="stylesheet">
-    </Head>
+    </head>
 </html>
 
 <body>
-    <header>
-        
-        <img src="Images/Bolo.jpg" height=300px id="bolo-header" alt="Imagem da fatia quadrada de um bolo com diversas camadas em cima de um prato com calda de chocolate">
-        <h1 id="header1" style="display: inline">Receitas de bolo</h1>
+    <header class="container-fluid">     
+        <img src="Images/Bolo.png" height=200px id="bolo-header" alt="Imagem da fatia quadrada de um bolo com diversas camadas em cima de um prato com calda de chocolate e canela em pó salpicada">
+        <h1 id="header-title">Receitas de bolo</h1>
     </header>
-    <main>
-        <img src="Images/Bolo.jpg"  
-        height=150px 
-        alt="Imagem opaca da fatia quadrada de um bolo com diversas camadas em cima de um prato com calda de chocolate">
-        <h2 id="main-header" style="display:ruby;"> Bolo de <p style="display: inline; color: black;">[sabor]</p> </h2>
-        <p id="main-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus aliquid ut neque sapiente, officiis hic voluptate doloremque, magni repudiandae minima ad voluptatum suscipit excepturi, quia voluptas quae maiores! Omnis, tenetur?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque facere nesciunt quae modi architecto, quos ducimus aspernatur eveniet veniam veritatis incidunt dolores nemo, corrupti dolore voluptatibus ad tempore voluptatem! Tenetur. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis obcaecati molestiae quos quam eaque, sunt dolorem rem voluptatem et! Molestias ipsa asperiores quae quibusdam vero! Delectus nesciunt laborum quas repudiandae.
+    <main >
+        <div class="main-container">
+            <div class="image-column">
+                <img 
+                src="Images/Bolo.png"
+                id="bolo-main"
+                alt="Imagem opaca da fatia quadrada de um bolo com diversas camadas em cima de um prato com calda de chocolate"
+                />
+            </div>
+                <div class="text-column">
+                <p id="main-header" style="display:ruby;"> Bolo de <span class="sabor-highlight">[sabor]</span> </h2>
 
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae porro quia corrupti qui quisquam doloremque sequi ducimus consequatur, consectetur ullam ut est architecto vero alias possimus, ad voluptatem minima ipsam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, rem praesentium iusto vel eos recusandae ipsam accusamus officiis incidunt facere. Dicta iusto exercitationem officiis natus quae assumenda expedita voluptas aliquid.
-        
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque possimus illum cumque dicta eligendi velit natus, quam numquam, voluptate rem et quasi eius vel! Consectetur fugiat repellat vero. Reiciendis, deserunt. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio laudantium maiores atque provident recusandae, eveniet, qui facere illum expedita, natus veniam alias perspiciatis eaque iste quia inventore ullam unde reprehenderit. </p>
+                <p id="main-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus aliquid ut neque sapiente, officiis hic voluptate doloremque, magni repudiandae minima ad voluptatum suscipit excepturi, quia voluptas quae maiores! Omnis, tenetur?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque facere nesciunt quae modi architecto, quos ducimus aspernatur eveniet veniam veritatis incidunt dolores nemo, corrupti dolore voluptatibus ad tempore voluptatem! Tenetur. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis obcaecati molestiae quos quam eaque, sunt dolorem rem voluptatem et! Molestias ipsa asperiores quae quibusdam vero! Delectus nesciunt laborum quas repudiandae. </p>
+                <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae porro quia corrupti qui quisquam doloremque sequi ducimus consequatur, consectetur ullam ut est architecto vero alias possimus, ad voluptatem minima ipsam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, rem praesentium iusto vel eos recusandae ipsam accusamus officiis incidunt facere. Dicta iusto exercitationem officiis natus quae assumenda expedita voluptas aliquid.
+                </p>
+                <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque possimus illum cumque dicta eligendi velit natus, quam numquam, voluptate rem et quasi eius vel! Consectetur fugiat repellat vero. Reiciendis, deserunt. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio laudantium maiores atque provident recusandae, eveniet, qui facere illum expedita, natus veniam alias perspiciatis eaque iste quia inventore ullam unde reprehenderit. </p>
+            </div>
+        </div>
     </main>
 
     <footer>

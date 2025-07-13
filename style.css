@@ -1,30 +1,72 @@
-
 header{
-    background-color: #F2F2F2;
-    color: #794A36;
-    font-size: 50px;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    text-align-last: start;
     border-bottom: 20px solid #794A36;
+    background-color: #F2F2F2;
+}
+
+#header-title{
+
+    color: #794A36;
+    font-size: 60px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align-last: center;
+    margin-top: 30px;
+    display:inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
 }
 
 #bolo-header{
-    border-radius: 400px
-    opac
+    border-radius: 200px;
+    filter: ;
 }
+
 
 main{
     color:#B0B0B0;
-    text-wrap:wrap;
-    display:inline;
-    margin:1em;        
+}
+
+.main-container{
+    display: flex;
+    margin: 40px;
+    gap: 30px;
+    align-items: flex-start;
+}
+
+.image-column{
+  flex: 1;
+  margin: 10px;
+}
+
+.text-column{
+    flex: 2;
+    margin: 10px;
+}
+
+.sabor-highlight{
+    color: black;
 }
 
 .main-header{
     color: black;
     display:inline;
     text-align:start;
+    margin-bottom: 15px;
 }
+
+#main-text {
+  margin-top: 15px;
+  line-height: 1.6;
+  text-align: justify;
+}
+
+#bolo-main{
+    height: 200px;
+    opacity: 0.3;
+    filter: grayscale(100%);
+}
+
 
 footer{
     background-color: #F2F2F2;
